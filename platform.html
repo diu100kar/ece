@@ -29,40 +29,13 @@
         margin-bottom: 3%;
       }
     </style>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Time Table</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="upperNav">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">ECE 2022</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/drive/folders/1Ffz4E1Zl22Q58ZGOniSxpg385S8-Vdgh?usp=sharing">Drive</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Schedule <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./platform.html">Platforms <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="http://vnit.ac.in/ece/wp-content/uploads/2019/10/B_TECH_ECE_Course_Book.pdf">Course Book <span class="sr-only">(current)</span></a>
-              </li>
-            </ul>
-          </form>
-        </div>
-      </div>
-    </nav>
+    <div id="header"></div>
 
     <div class="container-fluid">
       <div class="container text-center">
@@ -81,24 +54,14 @@
       </div>
     </div>
 
-    <div class="fixed-bottom">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <span class="text-muted" id="credits">Maintained by the Academic Secretaries</span>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <span class="text-muted">Last Edited : 23:02 Hrs, 21st August</span>
-            </li>
-          </ul>
-        </form>
-      </div>
-    </nav>
-    </div>
+    <div id="footer"></div>
 
   </body>
 </html>
+
+<script type="text/javascript">
+  $('#header').load('header.html');
+  $('#footer').load('footer.html', function(){
+    console.log('it runs');
+  });
+</script>
