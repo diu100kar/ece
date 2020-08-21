@@ -13,215 +13,42 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <style>
-
-      table{
-        margin-top:100px;
-        /* max-width: 600px; */
-      }
-
       body{
-        min-height: 100vh;
+        background-color: rgba(20, 20, 40, 0.2);
       }
-
-      td, th{
-        width: 80px;
-      }
-
     </style>
     <title>Time Table</title>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand" href="http://vnit.ac.in/ece/">ECE 2022</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="http://vnit.ac.in/ece/">ECE 2022</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Time Table <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://drive.google.com/drive/folders/1Ffz4E1Zl22Q58ZGOniSxpg385S8-Vdgh?usp=sharing" target="_blank">Drive</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../schedule.html">Schedule <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://drive.google.com/drive/folders/1Ffz4E1Zl22Q58ZGOniSxpg385S8-Vdgh?usp=sharing">Drive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../schedule.html">Platforms <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <div class="container-fluid">
 
-    <!-- <div class="container-fluid"> -->
-      <div class="offset-sm-1 col-sm-10 offset-lg-2 col-lg-8">
-        <div class="table-responsive-xl">
-          <table class="table table-borderless table-hover text-center">
-            <thead class="thead-dark">
-              <tr>
-                <th class="table-dark" scope="col"></th>
-                <th class="table-dark" scope="col">9-10</th>
-                <th class="table-dark" scope="col">10-11</th>
-                <th class="table-dark" scope="col">11-12</th>
-                <th class="table-dark" scope="col">12-13</th>
-                <th class="table-dark" scope="col">13-14</th>
-                <th class="table-dark" scope="col">14-15</th>
-                <th class="table-dark" scope="col">15-16</th>
-              </tr>
-            </thead>
-            <tbody>
-
-              <!-- Monday -->
-              <tr>
-                <th class="table-dark" scope="column">Mon</th>
-
-                <!-- 9-10 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">A</a></td>
-
-                <!-- 10-11 -->
-                <td class="table-primary"><a href="https://vnit.webex.com/meet/ankitbhurane">ES</a></td>
-
-                <!-- 11-12 -->
-                <td class="table-success"><a href="">CE</a></td>
-
-                <!-- 12-13 -->
-                <td class="table-danger"><a href="">DE</a></td>
-
-                <!-- 13-14 -->
-                <td class="table-secondary" rowspan="6"><a href="" class="text-secondary">Lunch</a></td>
-
-                <!-- 14-15 -->
-                <td class="table-warning"><a href="">W&A</a></td>
-
-                <!-- 15-16 -->
-                <td class="table-secondary"><a href=""></a></td>
-              </tr>
-
-              <!-- Tuesday -->
-              <tr>
-                <th class="table-dark" scope="column">Tue</th>
-
-                <!-- 9-10 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">B</a></td>
-
-                <!-- 10-11 -->
-                <td class="table-warning"><a href="">W&A</a></td>
-
-                <!-- 11-12 -->
-                <td class="table-info"><a href="">AC</a></td>
-
-                <!-- 12-13 -->
-                <td class="table-light"><a href="https://vnit.webex.com/meet/ksurender">M&I</a></td>
-
-                <!-- 14-15 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">A</a></td>
-
-                <!-- 15-16 -->
-                <td class="table-success"><a href="">CE</a></td>
-              </tr>
-
-              <!-- Wednesday -->
-              <tr>
-                <th class="table-dark" scope="column">Wed</th>
-
-                <!-- 9-10 -->
-                <td class="table-danger"><a href="">DE</a></td>
-
-                <!-- 10-11 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">A</a></td>
-
-                <!-- 11-12 -->
-                <td class="table-primary"><a href="https://vnit.webex.com/meet/ankitbhurane">ES</a></td>
-
-                <!-- 12-13 -->
-                <td class="table-success"><a href="">CE</a></td>
-
-                <!-- 14-15 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">B</a></td>
-
-                <!-- 15-16 -->
-                <td class="table-info"><a href="">AC</a></td>
-              </tr>
-
-              <!-- Thursday -->
-              <tr>
-                <th class="table-dark" scope="column">Thu</th>
-
-                <!-- 9-10 -->
-                <td class="table-light"><a href="https://vnit.webex.com/meet/ksurender">M&I</a></td>
-
-                <!-- 10-11 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">B</a></td>
-
-                <!-- 11-12 -->
-                <td class="table-warning"><a href="">W&A</a></td>
-
-                <!-- 12-13 -->
-                <td class="table-info"><a href="">AC</a></td>
-
-                <!-- 14-15 -->
-                <td class="table-danger"><a href="">DE</a></td>
-
-                <!-- 15-16 -->
-                <td class="table-primary"><a href="https://vnit.webex.com/meet/ankitbhurane">ES</a></td>
-              </tr>
-
-              <!-- Friday -->
-              <tr>
-                <th class="table-dark" scope="column">Fri</th>
-
-                <!-- 9-10 -->
-                <td class="table-success"><a href="">CE</a></td>
-
-                <!-- 10-11 -->
-                <td class="table-danger"><a href="">DE</a></td>
-
-                <!-- 11-12 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">A</a></td>
-
-                <!-- 12-13 -->
-                <td class="table-primary"><a href="https://vnit.webex.com/meet/ankitbhurane">ES</a></td>
-
-                <!-- 14-15 -->
-                <td class="table-light"><a href="https://vnit.webex.com/meet/ksurender">M&I</a></td>
-
-                <!-- 15-16 -->
-                <td class="table-secondary"><a href="#" class="text-secondary"></a></td>
-              </tr>
-
-              <!-- Saturday -->
-              <tr>
-                <th class="table-dark" scope="column">Sat</th>
-
-                <!-- 9-10 -->
-                <td class="table-info"><a href="">AC</a></td>
-
-                <!-- 10-11 -->
-                <td class="table-light"><a href="https://vnit.webex.com/meet/ksurender">M&I</a></td>
-
-                <!-- 11-12 -->
-                <td class="table-secondary"><a href="#" class="text-secondary">B</a></td>
-
-                <!-- 12-13 -->
-                <td class="table-warning"><a href="">W&A</a></td>
-
-                <!-- 14-15 -->
-                <td class="table-secondary"><a href="#" class="text-secondary"></a></td>
-
-                <!-- 15-16 -->
-                <td class="table-secondary"><a href="#" class="text-secondary"></a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    <!-- </div> -->
-
-    <footer class="footer">
-      <div class="container-fluid">
-        <a href='http://www.freevisitorcounters.com'>on freevisitorcounters.com</a>
-        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=834f1cbf0d7b113cc4bf4df47fd2bd24bcf84384'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/736817/t/5"></script>
-      </div>
-    </footer>
+    </div>
 
   </body>
 </html>
