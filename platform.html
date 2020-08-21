@@ -25,7 +25,7 @@
         font-size: 150%;
       }
 
-      nav{
+      #upperNav{
         margin-bottom: 3%;
       }
     </style>
@@ -34,32 +34,32 @@
   </head>
 
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="http://vnit.ac.in/ece/">ECE 2022</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="upperNav">
+      <div class="container">
+        <a class="navbar-brand" href="http://vnit.ac.in/ece/">ECE 2022</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/drive/folders/1Ffz4E1Zl22Q58ZGOniSxpg385S8-Vdgh?usp=sharing">Drive</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="https://drive.google.com/drive/folders/1Ffz4E1Zl22Q58ZGOniSxpg385S8-Vdgh?usp=sharing">Drive</a>
+                <a class="nav-link" href="./index.html">Schedule <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./platform.html">Platforms <span class="sr-only">(current)</span></a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">Schedule <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./platform.html">Platforms <span class="sr-only">(current)</span></a>
-                </li>
-              </ul>
-            </form>
-          </div>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <div class="container-fluid">
       <div class="container text-center">
@@ -76,6 +76,35 @@
           </ul>
         </div>
       </div>
+    </div>
+
+    <div class="fixed-bottom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="http://vnit.ac.in/ece/">ECE 2022</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/drive/folders/1Ffz4E1Zl22Q58ZGOniSxpg385S8-Vdgh?usp=sharing">Drive</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Schedule <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./platform.html">Platforms <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
     </div>
 
   </body>
