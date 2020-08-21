@@ -14,6 +14,12 @@
 
     <style>
       #tablecontainer{margin-top:10px}
+
+      td{
+        height: 15px;
+        /* width:12.5%; */
+        min-width: 100px;
+      }
     </style>
     <title>Time Table</title>
   </head>
@@ -37,6 +43,7 @@
   </div>
 </nav>
 <div class="container-fluid" id="tablecontainer">
+  <div class="table-responsive">
 <table class="table table-bordered table-hover text-center">
   <thead>
       <tr>
@@ -197,6 +204,10 @@
     </tr>
   </tbody>
 </table>
+</div>
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
 </div>
     <footer class="footer">
       <div class="container">
