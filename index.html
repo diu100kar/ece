@@ -33,7 +33,7 @@
     })
     </script>
 
-    
+
 
     <!-- External StyleSheet -->
     <link rel="stylesheet" type="text/css" href="styling.css">
@@ -475,6 +475,14 @@
         <img src="https://counter3.stat.ovh/private/freecounterstat.php?c=a2h9pglsx28tau6n16qnw18u3phcuntl" border="0" title="website counter" alt="website counter">
       </a>
     </noscript>
+
+    <!-- Popper.js  -->
+    <script type="text/javascript">
+      $('#header').load('header.html');
+      $('#footer').load('footer.html', function(){
+        console.log('it runs');
+      });
+    </script>
 
   </body>
 </html>
