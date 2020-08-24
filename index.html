@@ -440,8 +440,11 @@
 
 <!-- Partials  -->
 <script type="text/javascript">
+console.log("1");
   $('#head').load('head.html');
+  console.log("2");
   $('#header').load('header.html');
+  console.log("3");
   $('#footer').load('footer.html', function(){
     console.log('it runs');
   });
