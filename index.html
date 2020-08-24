@@ -33,70 +33,16 @@
     })
     </script>
 
-    <style>
-    body{
-      background-color: rgba(20, 20, 40, 0.2);
-    }
+    <!-- Popper.js  -->
+    <script type="text/javascript">
+      $('#header').load('header.html');
+      $('#footer').load('footer.html', function(){
+        console.log('it runs');
+      });
+    </script>
 
-    #headTitle{
-      font-size: 150%;
-        margin-bottom: 3%;
-    }
-    #upperNav{
-      margin-bottom: 3%;
-    }
-
-    table{
-      margin: 50px 0;
-    }
-
-    .urgent{
-      color: indianred;
-    }
-
-    .notUrgent{
-      font-size: 10px;
-    }
-
-    .margin50{
-      margin: 50px 0;
-    }
-
-    .paddingZero{
-      padding: 0;
-    }
-
-    .rotate{
-      transform: rotate(-90deg);
-      -webkit-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      -o-transform: rotate(-90deg);
-      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    }
-
-    #lambaCell{
-      padding-top: 84px;
-    }
-
-    .lookLink{
-      color: #007BFF;
-    }
-
-    .looklink :hover{
-        color: #007BFF;
-        text-decoration: underline;
-    }
-
-    .list-group-item{
-      background-color: rgba(20, 20, 40, 0)
-    }
-
-    #listHead{
-      font-size: 150%;
-    }
-
-    </style>
+    <!-- External StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="styling.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -538,11 +484,3 @@
 
   </body>
 </html>
-
-<!-- Popper.js  -->
-<script type="text/javascript">
-  $('#header').load('header.html');
-  $('#footer').load('footer.html', function(){
-    console.log('it runs');
-  });
-</script>
