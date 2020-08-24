@@ -31,14 +31,6 @@ table{
   padding: 0;
 }
 
-.rotate{
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-}
 
 #lambaCell{
   padding-top: 84px;
