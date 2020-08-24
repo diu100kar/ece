@@ -52,3 +52,7 @@ table{
 #listHead{
   font-size: 150%;
 }
+
+td, th{
+  max-height: 33.6px;
+}
