@@ -56,3 +56,7 @@ table{
 td, th{
   max-height: 33.6px;
 }
+
+.smallText{
+  font-size: 5px;
+}
