@@ -60,3 +60,8 @@ td, th{
 .smallText{
   font-size: 10px;
 }
+
+#recordingFoot{
+  font-size: 20px;
+  margin-top: 50px;
+}
