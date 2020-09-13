@@ -1,4 +1,5 @@
 # ece
+A simple yet efficient tool for managing all the links, data and notifications.
 
 ## The Need of this Project
 In this period of COVID-19 Pandemic, establishments have stopped their normal functioning. 
