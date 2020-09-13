@@ -54,5 +54,5 @@ But it does it's work pretty nice, and I think that is what is important.
 
 ## Analytics
 We humans need data. We find patterns wherever we can, even at places where no such pattern exists.\
-Google Analytics provides insights to such data. [Here](https://analytics.google.com/analytics/web/#/report-home/a176052227w243949309p227115805)
+Google Analytics provides insights to such data. Ping me throught the "Bugs and Suggestions" portal on the [webpage](https://diu100kar.github.io/ece), and I will share the latest report.
 ***
