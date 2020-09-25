@@ -65,3 +65,7 @@ td, th{
   font-size: 10px;
   margin-top: 50px;
 }
+
+table{
+  width: 100%;
+}
