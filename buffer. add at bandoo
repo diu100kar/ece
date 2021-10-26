@@ -1,1330 +1,1045 @@
-<!-- <div class="table-responsive"> -->
-  <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 paddingZero text-center">
-    <table class="table table-borderless table-hover text-center table-sm">
-      <thead class="thead-dark">
-        <tr>
-          <th class="table-dark" scope="col">Week 11</th>
-          <th class="table-dark" scope="col">9-10</th>
-          <th class="table-dark" scope="col">10-11</th>
-          <th class="table-dark" scope="col">11-12</th>
-          <th class="table-dark" scope="col">12-13</th>
-          <th class="table-dark" scope="col">13-14</th>
-          <th class="table-dark" scope="col">14-15</th>
-          <th class="table-dark" scope="col">15-16</th>
-          <th class="table-dark" scope="col">16-18</th>
-        </tr>
-      </thead>
-      <tbody>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-        <!-- Monday -->
-        <tr>
-          <th class="table-dark" scope="column">
-            Mon
-          </th>
+  <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176052227-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-176052227-1');
+    </script>
 
-          <!-- 9-10 -->
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              A
-            </a>
-          </td> -->
+    <!-- <meta http-equiv="refresh" content="10"/> -->
 
-          <td class="table-danger">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mf340cddae205c64ffc67a17c34d549ab">
-              DM
-            </a>
-          </td>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-          <!-- <td class="table-danger">
-            <a href="https://meet.google.com/wcj-ppqk-oop">
-              DM-C1
-            </a>
-          </td> -->
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-          <!-- 10-11 -->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-          <td class="table-primary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=me619df731d22c1dea69274681bf5e651">
-              DHD
-            </a>
-          </td>
+    <!-- Popover attributes -->
+    <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="popover"]').popover({html:true})
+    })
+    </script>
 
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              G
-            </a>
-          </td> -->
+    <!-- External StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="styling.css">
 
-          <!-- <td class="table-secondary">
-            <a href="#">
+    <title>ECE 2022</title>
 
-            </a>
-          </td> -->
+  </head>
 
+  <body>
 
-          <!-- 11-12 -->
+    <div id="header"></div>
 
-          <!-- <td class="table-success">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mf49d1a9da523db842cdcd8e6241f4c1a">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m4d7a7faff90a841e8ef9184117879328">
-              RF
-            </a>
-          </td> -->
-
-          <td class="table-success">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=mf49d1a9da523db842cdcd8e6241f4c1a'>
-                  JS
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m4d7a7faff90a841e8ef9184117879328'>
-                  RG
-                </a>
-              </div>">
-              RF
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              E
-            </a>
-          </td> -->
-
-
-          <!-- 12-13 -->
-
-           <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              C
-            </a>
-          </td> -->
-
-          <td class="table-light">
-            <a href='http://meet.google.com/gqb-bnrg-iwu'>
-              OS
-            </a>
-          </td>
-
-
-          <!-- 13-14 -->
-
-          <td class="table-secondary" rowspan="6" id="lambaCell">
-            <a href="https://manjulaskitchen.com/wp-content/uploads/everyday-lunch-menu.jpg" class="text-secondary" target="_blank">
-              Lunch
-            </a>
-          </td>
-
-          <!-- <td class="table-light">
-            <a href='http://meet.google.com/gqb-bnrg-iwu'>
-              OS
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-
-
-
-          <!-- 14-15 -->
-
-          <td class="table-warning">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=me8e062554e9c3e62bcf99f55eca2d6d0">
-              ADSP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              H
-            </a>
-          </td> -->
-
-
-          <!-- 15-16 -->
-
-          <!-- <td class="table-info">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m87259af5193f093a0e5db953bca21f0b">
-              AC
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href="#" target="_blank">
-
-            </a>
-          </td>
-          <!-- <td class="table-light">
-            <a href='http://meet.google.com/gqb-bnrg-iwu'>
-              OS
-            </a>
-          </td> -->
-
-          <!-- 16-18 -->
-          <!-- <td class="table-danger">
-            <a class= "lookLink " data-container="body" data-toggle="popover" data-placement="top" data-content="
-                <div class='text-center'>
-                  <a href='https://meet.google.com/wcj-ppqk-oop'>
-                    Lecture
-                  </a>
-                </div>
-                <div class='text-center'>
-                  <a href='https://groups.google.com/u/1/g/devicemodellingc1'>
-                    Google Group
-                  </a>
-                </div>">
-                DM-C1
-              </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a>
-                <!-- DM-C1 -->
-              </a>
-          </td>
-
-        </tr>
-
-        <!-- Tuesday -->
-        <tr>
-
-          <th class="table-dark" scope="column">
-            Tue
-          </th>
-
-
-          <!-- 9-10 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              B
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m934ab859b54a876d9d85a2d27fb3ef0d">
-              Bio
-            </a>
-          </td>
-
-
-          <!-- 10-11 -->
-
-          <td class="table-warning">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=maf144ca35e481bbf2690c8c044ff3e87">
-              ADSP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              H
-            </a>
-          </td> -->
-
-
-          <!-- 11-12 -->
-
-          <!-- <td class="table-success"> -->
-            <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=m261616f39b277f32cd06c1b6b311e743"> -->
-            <!-- <a href="https://www.google.com/url?q=https://vnit.webex.com/vnit/j.php?MTID%3Dmd90680f893f1d9d515449de628a2d890&sa=D&source=calendar&ust=1616301617782000&usg=AOvVaw0pL4h5ajs63SrIU5JmJxoW">
-              RF
-            </a>
-          </td> -->
-
-          <td class="table-info">
-            <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=m261616f39b277f32cd06c1b6b311e743"> -->
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mdd936aaf893f8a7794565c22a20554e5">
-              DC
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              F
-            </a>
-          </td> -->
-
-
-          <!-- 12-13 -->
-
-          <td class="table-secondary color1">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=me63c21843e08c81f81216d2ca0670c9b">
-              DIP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              D
-            </a>
-          </td> -->
-
-
-          <!-- 13-14 -->
-
-          <!-- <td class="table-light" colspan="2">
-            <a href="https://vnit.webex.com/meet/ksurender">
-              M&I
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary" rowspan="5" id="lambaCell">
-            <a href="https://manjulaskitchen.com/wp-content/uploads/everyday-lunch-menu.jpg" class="text-secondary" target="_blank">
-              Lunch
-            </a>
-          </td> -->
-
-
-          <!-- 14-15 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              A
-            </a>
-          </td> -->
-
-          <td class="table-danger">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m544d0a0fa7814c5e47a5815063928272">
-              DM
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-
-          <!-- 15-16 -->
-
-          <td class="table-success">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m5414f832b4ff043e0629f9c0bddd2330'>
-                  JS
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m90135b6c5be94a2e7b71432ff5627d6d'>
-                  RG
-                </a>
-              </div>">
-              RF
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-            E
-            </a>
-          </td> -->
-
-          <!-- <td class="table-light">
-            <a href="https://vnit.webex.com/meet/ksurender">
-              M&I
-            </a>
-          </td> -->
-
-          <!-- 16-18 -->
-          <td class="table-danger">
-            <a class= "lookLink " data-container="body" data-toggle="popover" data-placement="top" data-content="
-                <div class='text-center'>
-                  <a href='http://meet.google.com/fqk-spvr-meo'>
-                    Lecture
-                  </a>
-                </div>
-                <div class='text-center'>
-                  <a href='https://groups.google.com/u/1/g/devicemodellingc2'>
-                    Google Group
-                  </a>
-                </div>">
-                DM-C2
-              </a>
-          </td>
-
-
-
-        </tr>
-
-        <!-- Wednesday -->
-        <tr>
-
-          <th class="table-dark" scope="column">
-            Wed
-          </th>
-
-          <!-- 9-10 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              C
-            </a>
-          </td> -->
-
-          <td class="table-light">
-            <a href="http://meet.google.com/gqb-bnrg-iwu">
-              OS
-            </a>
-          </td>
-
-
-          <!-- 10-11 -->
-
-          <!-- <td class="table-danger">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/meet/AkhileshLunge'>
-                  CAO
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m8368112c3f0c028b45830588499b3393'>
-                  ESD
-                </a>
-              </div>">
-              DE
-            </a>
-          </td> -->
-
-          <td class="table-danger">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mca7f66a99649181ddafe17cf98528ddd">
-            DM
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              A
-            </a>
-          </td> -->
-
-
-          <!-- 11-12 -->
-
-          <td class="table-primary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m67570a3949a3515916978696b82e2e6e">
-              DHD
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#"  class="text-secondary">
-              G
-            </a>
-          </td> -->
-
-
-          <!-- 12-13 -->
-
-          <!-- <td class="table-success">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=maae51ce418a40a1144560466d89e6d97">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m936e23f69a446858889b7199743fae11">
-              RF
-            </a>
-          </td> -->
-
-          <td class="table-success">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=ma39d17b4bb7a2a3134429c31f5999254'>
-                  JS
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m01287f81e4fe5e9cd26b691abb392516'>
-                  RG
-                </a>
-              </div>">
-              RF
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              E
-            </a>
-          </td> -->
-
-
-          <!-- 13-14 -->
-
-          <!-- <td class="table-secondary">
-            <a href="https://farm8.staticflickr.com/7778/17269216874_f4d1057324_z.jpg" class="text-secondary">
-              Lunch
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-
-          <!-- 14-15 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              B
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href='https://vnit.webex.com/vnit/j.php?MTID=mefad03856f827211bb8745deae69b7ad'>
-              Bio
-            </a>
-          </td>
-
-
-          <!-- 15-16 -->
-
-          <td class="table-info">
-            <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=m095dc6a34363e874f8e7e6aabe23652b"> -->
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=md3a24e9fc1dbc673e8849d90938fa643">
-              DC
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              F
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-          <!-- 16-18 -->
-          <td class="table-danger">
-            <a class= "lookLink " data-container="body" data-toggle="popover" data-placement="top" data-content="
-                <div class='text-center'>
-                  <a href='https://meet.google.com/mfd-hfoe-bjd'>
-                    Lecture
-                  </a>
-                </div>
-                <div class='text-center'>
-                  <a href='https://groups.google.com/u/1/g/devicemodellingc3'>
-                    Google Group
-                  </a>
-                </div>">
-                DM-C3
-              </a>
-          </td>
-
-
-
-        </tr>
-
-
-        <!-- Thursday -->
-        <tr>
-
-          <th class="table-dark" scope="column">
-            Thu
-          </th>
-
-          <!-- 9-10 -->
-
-          <td class="table-secondary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m8ec4102b6c26d096700374cd47946dd3">
-              DIP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              D
-            </a>
-          </td> -->
-
-
-          <!-- 10-11 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              B
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href='https://vnit.webex.com/vnit/j.php?MTID=mde0ee602e41616ec3f2397e6129ab516'>
-              Bio
-            </a>
-          </td>
-
-
-          <!-- 11-12 -->
-
-          <td class="table-warning">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=ma2e40adb356a8ea18736345e5c31097d">
-              ADSP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              H
-            </a>
-          </td> -->
-
-
-          <!-- 12-13 -->
-
-          <td class="table-info">
-            <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=m653dfb1fd07fb8d6eb4462f2ad208fbf"> -->
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m0b50f2d003ee2bce65798315ded57acd">
-              DC
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              F
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-
-          <!-- 13-14 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#">
-
-            </a>
-          </td> -->
-
-
-          <!-- 14-15 -->
-
-          <!-- <td class="table-danger">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/meet/AkhileshLunge'>
-                  CAO
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m245b8668e14ca5367f446183d5f48cb8'>
-                  ESD
-                </a>
-              </div>">
-              DE
-            </a>
-          </td> -->
-
-          <td class="table-light">
-            <a href="http://meet.google.com/gqb-bnrg-iwu">
-            OS
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              C
-            </a>
-          </td> -->
-
-          <!-- <td class="table-primary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=maa03d2c47e1da8b409d5caf7e555d2e4">
-              DHD
-            </a>
-          </td> -->
-
-
-          <!-- 15-16 -->
-
-          <td class="table-primary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=maa03d2c47e1da8b409d5caf7e555d2e4">
-              DHD
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-          <!-- 16-18 -->
-          <td class="table-danger">
-            <a class= "lookLink " data-container="body" data-toggle="popover" data-placement="top" data-content="
-                <div class='text-center'>
-                  <a href='https://meet.google.com/xin-vpvh-vrr'>
-                    Lecture
-                  </a>
-                </div>
-                <div class='text-center'>
-                  <a href='https://groups.google.com/u/1/g/devicemodellingc4'>
-                    Google Group
-                  </a>
-                </div>">
-                DM-C4
-              </a>
-          </td>
-
-        </tr>
-
-
-        <!-- Friday -->
-        <tr>
-
-          <th class="table-dark" scope="column">
-            Fri
-          </th>
-
-          <!-- 9-10 -->
-
-          <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              E
-            </a>
-          </td>
-
-          <!-- <td class="table-success">
-            <a href="#">
-              RF
-            </a>
-          </td> -->
-
-
-          <!-- 10-11 -->
-
-          <!-- <td class="table-danger">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/meet/AkhileshLunge' target='_blank'>
-                  CAO
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m2b2155d0689ef9504cdd5044886f5916'>
-                  ESD
-                </a>
-              </div>">
-              DE
-            </a>
-          </td> -->
-
-          <td class="table-light">
-            <a href="http://meet.google.com/gqb-bnrg-iwu">
-              OS
-            </a>
-          </td>
-
-          <!-- <td class="table-primary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m7d3c48c3bdfb31852f81e22d8af4ffdd">
-              DHD
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              C
-            </a>
-          </td> -->
-
-
-          <!-- 11-12 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              A
-            </a>
-          </td> -->
-
-          <td class="table-danger">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m2e43b9ea111e77e669f3b1d3c1c192c5">
-            DM
-            </a>
-          </td>
-
-
-          <!-- 12-13 -->
-
-          <td class="table-primary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mde30f6b61df98359f9a2d320e86bedc3">
-              DHD
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary">
-              G
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-
-          <!-- 13-14 -->
-
-          <!-- <td class="table-light">
-            <a href="https://vnit.webex.com/meet/ksurender">
-              M&I
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-
-          <!-- 14-15 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              D
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m0d1fd00e60fb65e1c5763c51133befbc">
-            <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=m83edaa2b69b587e4b673ea432ad5abf6"> -->
-              DIP
-            </a>
-          </td>
-
-          <!-- <td class="table-danger">
-            <a href='https://vnit.webex.com/meet/AkhileshLunge'>
-              CAO
-            </a>
-          </td> -->
-
-
-          <!-- 15-16 -->
-
-          <!-- <td class="table-success">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m065249f7da392b55d6ccbfbc4fa3d8f8">
-              CE
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-          <td class="table-success">
-            <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m6c2deca5bf3f4c89e8a6b05f2d9126be'>
-                  JS
-                </a>
-              </div>
-              <div>
-                <a href='https://vnit.webex.com/vnit/j.php?MTID=m6c2deca5bf3f4c89e8a6b05f2d9126be'>
-                  RG
-                </a>
-              </div>">
-              RF
-            </a>
-          </td>
-
-          <!-- <td class="table-light">
-            <a href="https://vnit.webex.com/meet/ksurender">
-              MI-P
-            </a>
-          </td> -->
-
-          <!-- 16-18 -->
-          <td class="table-danger">
-            <a class= "lookLink " data-container="body" data-toggle="popover" data-placement="top" data-content="
-                <div class='text-center'>
-                  <a href='https://meet.google.com/jjy-jomz-frd'>
-                    Lecture
-                  </a>
-                </div>
-                <div class='text-center'>
-                  <a href='https://groups.google.com/u/1/g/devicemodellingc5'>
-                    Google Group
-                  </a>
-                </div>">
-                DM-C5
-              </a>
-          </td>
-
-
-
-
-        <!-- Saturday -->
-        <tr>
-
-          <th class="table-dark" scope="column">
-            Sat
-          </th>
-
-          <!-- 9-10 -->
-
-          <td class="table-info">
-            <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=m4f95d981408bb1a477c4d4b7b43d4595"> -->
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m7330a6703bbcc6fb773dc96517d8294e">
-              DC
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              F
-            </a>
-          </td> -->
-
-          <!-- <td class="table-warning" colspan="2">
-            <a href="https://vnit.webex.com/meet/akothari" target="_blank">
-              Antenna
-            </a>
-          </td> -->
-
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-
-          <!-- 10-11 -->
-
-          <td class="table-secondary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m3cdd79afc34f543bf1f35bd26a4d57b9">
-              DIP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              D
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-
-          <!-- 11-12 -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-              B
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=md14adfb5f0b501a73819eb80391b412c">
-              Bio
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-
-          <!-- 12-13 -->
-
-          <td class="table-warning">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mba0c9991779d3557743e2c69082f9504">
-              ADSP
-            </a>
-          </td>
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-            H
-            </a>
-          </td> -->
-
-
-          <!-- 13-14 -->
-
-          <!-- <td class="table-secondary">
-            <a href="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2018%2F08%2Fmain%2Fgreek-chickpea-salad-1809-p90.jpg%3Fitok%3DVEPAzZB9" class="text-secondary">
-              Lunch
-            </a>
-          </td> -->
-
-          <!-- <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td> -->
-
-          <!-- <td class="table-info">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m3254b8ece7ae4a1975af4fb7c98c2727">
-              DC
-            </a>
-          </td> -->
-
-          <!-- <td class="table-warning">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mba0c9991779d3557743e2c69082f9504">
-              ADSP
-            </a>
-          </td> -->
-
-
-          <!-- 14-15 -->
-
-          <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td>
-
-
-          <!-- 15-16 -->
-
-          <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td>
-
-          <!-- 16-18 -->
-          <!-- <td class="table-danger">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=mf340cddae205c64ffc67a17c34d549ab">
-              DM-P
-            </a>
-          </td> -->
-
-          <td class="table-secondary">
-            <a href="#" class="text-secondary" target="_blank">
-
-            </a>
-          </td>
-          <!-- <td class="table-secondary">
-            <a href="https://vnit.webex.com/vnit/j.php?MTID=m83edaa2b69b587e4b673ea432ad5abf6">
-              DIP
-            </a>
-          </td> -->
-
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-
-
-<!-- Notices -->
-<!-- <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 paddingZero margin50 text-center"> -->
-
-  <!-- <h3 class="text-center"><a href="#" onclick="window.open('https://drive.google.com/file/d/1F4sl6nl0lxw6toAPvMH5rNmBhAxWE_s3/view?usp=sharing');window.open('https://drive.google.com/file/d/1AuyqyRMS2L4m7uEDichaFomQdP2obZCu/view?usp=sharing');" class="text-danger">!! Examination Details Here !!</a></h3>
-  <span class="text-center">Examination link to be sent by Exam Co-ordinator via email. <a href="https://drive.google.com/file/d/11byEDlyJNn9SlXFpT9gPHL76DbiTquPB/view?usp=sharing">Notice here.</a></span> -->
-
-  <h3 id="notices">Notices</h3>
-  <!-- <h5><a class="text-danger" href="https://vnit.ac.in/wp-content/uploads/2020/12/Note-4844-Commencement-of-Summer-2021-Session-in-Online-mode.pdf">6th Semester starting from 4th January.</a></h5> -->
-  <!-- <ul> -->
-  <!-- <li class="text-danger">Thursday is a Holid ay. Complete Off. Nothing Scheduled.</li> -->
-  <!-- <li class="text-danger"><a href="https://vnit.webex.com/vnit/j.php?MTID=m83edaa2b69b587e4b673ea432ad5abf6">DIP</a> Extra Class from 1600-1700Hrs on Saturday, 6th February.</li> -->
-  <!-- <li>DHD Software: Quartus II. Download <a href='https://drive.google.com/file/d/1zMf3f2qvGcJkAe9ivG1WLfNRAMcVkC4O/view?usp=sharing'>Here</a>. Reference manual <a href='https://drive.google.com/file/d/1-5l81c_Ix2Aub4NnDU8SatrdgK1-ZNAu/view?usp=sharing'>Here</a>.</li> -->
-  <!-- <li>DC Software: GNU-Radio link <a href='https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/p/MjU5NDU4OTQ1Njc4/details'>here</a>.</li> -->
-    <!-- <li class="text-danger">CE quiz from 13:00, on 3rd December, Thursday.</li> -->
-    <!-- <li class="text-danger">W&A quiz from 20:00, on 3rd December, Thursday.</li> -->
-    <!-- <li class="text-danger">Okay? Okay!</li> -->
-    <!-- <li>  <a href="https://docs.google.com/document/d/17OlaXUA38qzelux67DDrpOgbKFiA7qCfOlpCzvpCyX4/edit?usp=drivesdk" target="_blank">DC Instructions for Assignment 1</a></li> -->
-    <!-- <li><span class="text">Analog Communication PPT and Viva<br>18th Nov for remaining people<br>PPTs to mailed before Viva day, <a href='mailto:joydeep.sengupta45@gmail.com'>Here.</a></li> -->
-    <!-- <li class="text">EMB submission before 2359 Hrs. Monday. <a href="https://docs.google.com/forms/d/e/1FAIpQLScYf2WN738n5Vrokc1PdjokXuvL-MiuMQUVySJQ3HEkg-1nIw/viewform"> Here.</a></li> -->
-  <!-- </ul> -->
-  <div class="container">
-  <div class="row">
-    <div class="table-responsive col-md-6 text-center">
-      <table class="table table-borderless table-hover text-center table-sm">
-            <thead class="thead-dark">
-              <tr>
-                <th class="table-dark" scope="col" colspan="4">Submissions</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th class="table-dark" scope="column">
-                  Course
-                </th>
-                <th class="table-dark">
-                    Due
-                </th>
-                <th class="table-dark">
-                    Statement
-                </th>
-                <th class="table-dark">
-                    Submit
-                </th>
-              </tr>
-
-              <!-- <tr class="table-info">
-                <td>
-                  DC-3
-                </td>
-                <td>
-                  28/03
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/p/MjY1MTkzOTU1NTI5/details">Here</a>
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/a/MjY1MTkzOTU1NTY4/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-primary">
-                <td>
-                  DHD-Project
-                </td>
-                <td>
-                  31/03
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/Mjk4ODA3MTQxOTI5/details">Here</a>
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/Mjk4ODA3MTQxOTI5/details">Here</a>
-                </td>
-              </tr> -->
-
-              <!-- <tr class="table-danger">
-                <td>
-                  DM - 3
-                </td>
-                <td>
-                  01/04
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjY1ODQ4NTg3NDY3/a/MzA3NDU3ODI5Mzg5/details">Here</a>
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjY1ODQ4NTg3NDY3/a/MzA3NDU3ODI5Mzg5/details">Here</a>
-                </td>
-              </tr> -->
-
-
-              <tr class="table-info">
-                <td>
-                  DC-MiniProject
-                </td>
-                <td>
-                  06/04
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/a/MjY1MTkzOTU1NTgw/details">Here</a>
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/a/MjY1MTkzOTU1NTgw/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-danger">
-                <td>
-                  DM Project
-                </td>
-                <td>
-                  06/04
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjY1ODQ4NTg3NDY3/a/MzA3NDU3ODI5Mzg5/details">Here</a>
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjY1ODQ4NTg3NDY3/a/MzA3NDU3ODI5Mzg5/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-secondary">
-                <td>
-                  DIP - Project
-                </td>
-                <td>
-                  11/04
-                </td>
-                <td>
-                  <!-- <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/MzAxODkwNDM3MzYw/details">Here</a> -->
-                </td>
-                <td>
-                  <!-- <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/MzAxODkwNDM3MzYw/details">Here</a> -->
-                </td>
-              </tr>
-
-              <tr class="table-primary">
-                <td>
-                  DHD-Lab Report
-                </td>
-                <td>
-                  11/04
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/MzAxODkwNDM3MzYw/details">Here</a>
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/MzAxODkwNDM3MzYw/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-warning">
-                <td>
-                  ADSP Everything
-                </td>
-                <td>
-                  13/04
-                </td>
-                <td>
-                  <a href="https://docs.google.com/document/d/1FKrgy3i_HpPiX-r7UtFzfg7OWUeybOrY8sgoIu921Ng/edit?usp=sharing">Here</a>
-                </td>
-                <td>
-                  <!-- <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/a/MzAxODkwNDM3MzYw/details">Here</a> -->
-                </td>
-              </tr>
-
-
-            </tbody>
-          </table>
-    </div>
-    <div class="table-responsive col-md-6 text-center">
-      <table class="table table-borderless table-hover text-center table-sm">
-            <thead class="thead-dark">
-              <tr>
-                <th class="table-dark" scope="col" colspan="4">Quizzes & Vivas </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th class="table-dark" scope="column">
-                  Course
-                </th>
-                <th class="table-dark">
-                  Date
-                </th>
-                <th class="table-dark">
-                  Ref
-                </th>
-              </tr>
-
-              <tr class="table-success">
-                <!-- <td>
-                  RF Viva
-                </td>
-                <td>
-                  Ongoing
-                </td>
-                <td>
-                  <a href="https://vnit.webex.com/vnit/j.php?MTID=mf69cc328e9cc924fc30807f3d433bfbe">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-info">
-                <td>
-                  DC Viva
-                </td>
-                <td>
-                  Ongoing
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/p/MzAwOTYzNTM0Nzk5/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-primary">
-                <td>
-                  DHD Viva
-                </td>
-                <td>
-                  02/04 Onwards
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MzU3MDM5MjY1/p/MzExOTU2Mzc0NTA4/details">Here</a>
-                </td>
-              </tr> -->
-
-              <tr class="table-danger">
-                <td>
-                  DM Viva
-                </td>
-                <td>
-                  07/04 Onwards
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjY1ODQ4NTg3NDY3/p/MzA3MjYxNTk4NDAy/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-info">
-                <td>
-                  DC Quiz
-                </td>
-                <td>
-                  08/04
-                </td>
-                <td>
-                  <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/p/MzExOTEyMjEyMzM5/details">Here</a>
-                </td>
-              </tr>
-
-              <tr class="table-success">
-                <td>
-                  RF Quiz
-                </td>
-                <td>
-                  10/04
-                </td>
-                <td>
-                  <!-- <a href="https://vnit.webex.com/vnit/j.php?MTID=mf69cc328e9cc924fc30807f3d433bfbe">Here</a> -->
-                </td>
-              </tr>
-
-              <!-- <tr class="table-warning">
-                <td>
-                  ADSP - Everything
-                </td>
-                <td>
-                  13/04
-                </td>
-                <td>
-                  <a href="https://docs.google.com/document/d/1FKrgy3i_HpPiX-r7UtFzfg7OWUeybOrY8sgoIu921Ng/edit?usp=sharing">Here</a>
-                </td>
-              </tr> -->
-            </tbody>
-          </table>
+    <div class="container-fluid paddingZero">
+      <div class="text-center">
+        <span id="headTitle"><strong>Time Table</strong></span>
+        <!-- <h2><a class="text-danger" href="#">Time Table</a></h2> -->
       </div>
-  </div>
-  </div>
+    </div>
+      <!-- Bandoo -->
+      <!-- <div class="table-responsive"> -->
+        <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 paddingZero text-center">
+          <table class="table table-borderless table-hover text-center table-sm">
+            <thead class="thead-dark">
+              <tr>
+                <th class="table-dark" scope="col">Week 2</th>
+                <th class="table-dark" scope="col">9-10</th>
+                <th class="table-dark" scope="col">10-11</th>
+                <th class="table-dark" scope="col">11-12</th>
+                <th class="table-dark" scope="col">12-13</th>
+                <th class="table-dark" scope="col">13-14</th>
+                <th class="table-dark" scope="col">14-15</th>
+                <th class="table-dark" scope="col">15-16</th>
+                <th class="table-dark" scope="col">16-17</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <!-- Monday -->
+              <tr>
+                <th class="table-dark" scope="column">
+                  Mon
+                </th>
 
 
-</div>
+                <!-- 9-10 -->
+                <!-- Mo1 -->
+
+                <!-- <td class="table-secondary">
+                  <a href="#" class="text-secondary">
+                    A
+                  </a>
+                </td> -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=m5dd9dabe8b69fa8fb5b03f4448229200'>
+                        Radar
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        P&M
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=mc3a923c5ca1efbb47fe0f5a1c70a4a5a'>
+                        PoE
+                      </a>
+                    </div>">
+                    A
+                  </a>
+                </td>
+
+                <!-- 10-11 -->
+                <!-- Mo2 -->
+
+                <td class="table-primary">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m9a4bdfd766ccd80bb81f27a6d15e425c">
+                    CN
+                  </a>
+                </td>
+
+
+                <!-- 11-12 -->
+                <!-- Mo3 -->
+
+                <td class="table-danger">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m3c5a22da9edf19a5488f2e66eb3e4e5f">
+                    IACV
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    E
+                  </a>
+                </td> -->
+
+
+                <!-- 12-13 -->
+                <!-- Mo4 -->
+
+                 <td class="table-success">
+                  <a href="https://vnit.webex.com/meet/manishaparlewar.aapp">
+                    FIT
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    C
+                  </a>
+                </td> -->
+
+
+                <!-- 13-14 -->
+
+                <td class="table-secondary" rowspan="6" id="lambaCell">
+                  <a href="https://i.ytimg.com/vi/Q2Cq4nC0CP4/maxresdefault.jpg" class="text-secondary" target="_blank">
+                    Lunch
+                  </a>
+                </td>
+
+
+                <!-- 14-15 -->
+                <!-- Mo5 -->
+
+                <td class="table-info">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=med4ccece5b92c7dc856961b283ed88df">
+                    WC
+                  </a>
+                </td>
+
+
+                <!-- 15-16 -->
+                <!-- Mo6 -->
+
+                <td class="table-secondary">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m9f84929c7742fe9d7a0557d9798686d6">
+                    <!-- CN-P1 -->
+                  </a>
+                </td>
+
+
+                <!-- 16-17 -->
+                <!-- Mo7 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='#'>
+                        BSP-1
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        IACV-3,4
+                      </a>
+                    </div>">
+                    Prac
+                  </a>
+                </td>
+
+              </tr>
+
+
+              <!-- Tuesday -->
+              <tr>
+
+                <th class="table-dark" scope="column">
+                  Tue
+                </th>
+
+
+                <!-- 9-10 -->
+                <!-- Tu1 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/meet/adhocstaff254'>
+                        BG
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=mf7d101c1280ec6cb861df7f233e68310'>
+                        BSP
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=me288246040cab3c9b3bcf27112ce0092'>
+                        ECA
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://meet.google.com/rat-tnyj-eas '>
+                        IS
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=m40fda5273e2c45cf6a5f62a27632c4f6'>
+                        MFM
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        Sans
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://meet.google.com/mgt-gbzw-ndx'>
+                        SAQT
+                      </a>
+                    </div>">
+                    B
+                  </a>
+                </td>
+
+
+                <!-- 10-11 -->
+                <!-- Tu2 -->
+
+                <td class="table-info">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m548d5ed51c7782ac62c89dc6d7514d95">
+                    WC
+                  </a>
+                </td>
+
+
+                <!-- 11-12 -->
+                <!-- Tu3 -->
+
+                <td class="table-light">
+                  <a href="https://vnit.webex.com/meet/ksurender">
+                    OS
+                  </a>
+                </td>
+
+
+                <!-- 12-13 -->
+                <!-- Tu4 -->
+
+                <td class="table-warning">
+                  <a href="https://vnit.webex.com/meet/NKN">
+                    AMI
+                  </a>
+                </td>
+
+
+                <!-- 13-14 -->
+
+                <!-- <td class="table-secondary">
+                  <a href="#">
+
+                  </a>
+                </td> -->
+
+
+                <!-- 14-15 -->
+                <!-- Tu5 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/meet/abhishekpahuja.aapp'>
+                        Radar
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        P&M
+                      </a>
+                    </div>">
+                    A
+                  </a>
+                </td>
+
+
+                <!-- 15-16 -->
+                <!-- Tu6 -->
+
+                <td class="table-danger">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m47a79915253feda2ca8ce83f14fbf4c8">
+                  IACV
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    E
+                  </a>
+                </td> -->
+
+
+                <!-- 16-17 -->
+                <!-- Tu7 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='#'>
+                        BSP-2
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/meet/NKN'>
+                        AMI-1,4
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/join/vrsatpute'>
+                        IACV-5
+                      </a>
+                    </div>">
+                    Prac
+                  </a>
+                </td>
+
+              </tr>
+
+
+              <!-- Wednesday -->
+              <tr>
+
+                <th class="table-dark" scope="column">
+                  Wed
+                </th>
+
+                <!-- 9-10 -->
+                <!-- We1 -->
+
+                <td class="table-success">
+                  <a href="https://vnit.webex.com/meet/manishaparlewar.aapp">
+                    FIT
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    C
+                  </a>
+                </td> -->
+
+
+
+                <!-- 10-11 -->
+                <!-- We2 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=m5dd9dabe8b69fa8fb5b03f4448229200'>
+                        Radar
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        P&M
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=mc3a923c5ca1efbb47fe0f5a1c70a4a5a'>
+                        PoE
+                      </a>
+                    </div>">
+                    A
+                  </a>
+                </td>
+
+
+                <!-- 11-12 -->
+                <!-- We3 -->
+
+                <td class="table-primary">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m5dc79c85db9a995285f5fa8ee4766946">
+                    CN
+                  </a>
+                </td>
+
+
+                <!-- 12-13 -->
+                <!-- We4 -->
+
+                <td class="table-danger">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m4e8b65c67924ac3a28ea5e73caf5e187">
+                    IACV
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    E
+                  </a>
+                </td> -->
+
+
+                <!-- 13-14 -->
+
+                <!-- <td class="table-secondary">
+                  <a href="#">
+
+                  </a>
+                </td> -->
+
+
+                <!-- 14-15 -->
+                <!-- We5 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/meet/adhocstaff254'>
+                        BG
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=ma624433b124ea2bc9d8b59bb40433f26'>
+                        BSP
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        ECA
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://meet.google.com/rat-tnyj-eas'>
+                        IS
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=m40fda5273e2c45cf6a5f62a27632c4f6'>
+                        MFM
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        Sans
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://meet.google.com/yzh-azah-zwf'>
+                        SAQT
+                      </a>
+                    </div>">
+                    B
+                  </a>
+                </td>
+
+
+                <!-- 15-16 -->
+                <!-- We6 -->
+
+                <td class="table-light">
+                  <a href="https://vnit.webex.com/meet/ksurender">
+                    OS
+                  </a>
+                </td>
+
+                <!-- 16-17 -->
+                <!-- We7 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='#'>
+                        BSP-3
+                      </a>
+                    </div>">
+                    Prac
+                  </a>
+                </td>
+              </tr>
+
+
+              <!-- Thursday -->
+              <tr>
+
+                <th class="table-dark" scope="column">
+                  Thu
+                </th>
+
+                <!-- 9-10 -->
+                <!-- Th1 -->
+
+                <td class="table-warning">
+                  <a href="https://vnit.webex.com/meet/NKN">
+                    AMI
+                  </a>
+                </td>
+
+
+                <!-- 10-11 -->
+                <!-- Th2 -->
+
+                  <td class="table-secondary">
+                    <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                      <div>
+                        <a href='https://vnit.webex.com/meet/adhocstaff254'>
+                          BG
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://vnit.webex.com/vnit/j.php?MTID=mef97c5a40d849e16fcde3ead2d8b75a9'>
+                          BSP
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://vnit.webex.com/vnit/j.php?MTID=m856cdc581a61d827548ebcdf25b0b169'>
+                          ECA
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://meet.google.com/rat-tnyj-eas'>
+                          IS
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://vnit.webex.com/vnit/j.php?MTID=m40fda5273e2c45cf6a5f62a27632c4f6'>
+                          MFM
+                        </a>
+                      </div>
+                      <div>
+                        <a href='#'>
+                          Sans
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://meet.google.com/pnc-zrtz-qiv'>
+                          SAQT
+                        </a>
+                      </div>">
+                      B
+                    </a>
+                  </td>
+
+
+                <!-- 11-12 -->
+                <!-- Th3 -->
+
+                <td class="table-info">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m7643e9e9b873ddb6b609264758472c5e">
+                    WC
+                  </a>
+                </td>
+
+
+                <!-- 12-13 -->
+                <!-- Th4 -->
+
+                <td class="table-light">
+                  <a href="https://vnit.webex.com/meet/ksurender">
+                    OS
+                  </a>
+                </td>
+
+
+                <!-- 13-14 -->
+
+                <!-- <td class="table-secondary">
+                  <a href="#">
+
+                  </a>
+                </td> -->
+
+
+                <!-- 14-15 -->
+                <!-- Th5 -->
+
+                <td class="table-success">
+                  <a href="https://vnit.webex.com/meet/manishaparlewar.aapp">
+                    FIT
+                  </a>
+                </td>
+
+                <!-- <td class="table-secondary">
+                  <a href="#">
+                    C
+                  </a>
+                </td> -->
+
+
+                <!-- 15-16 -->
+                <!-- Th6 -->
+
+                <td class="table-primary">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m70b1ffb174d3c2587b30ff854f87c7e3">
+                    CN
+                  </a>
+                </td>
+
+                <!-- <td class="table-secondary">
+                  <a href="#">
+                    G
+                  </a>
+                </td> -->
+
+
+                <!-- 16-17 -->
+                <!-- Th7 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='#'>
+                        BSP-4
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/meet/NKN'>
+                        AMI-3,5
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=m5dcb0281b728290b7e75dc3ebe29daff '>
+                        IACV-1,2
+                      </a>
+                    </div>">
+                    Prac
+                  </a>
+                </td>
+
+              </tr>
+
+
+              <!-- Friday -->
+              <tr>
+
+                <th class="table-dark" scope="column">
+                  Fri
+                </th>
+
+                <!-- 9-10 -->
+                <!-- Fr1 -->
+
+                <td class="table-danger">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=mf160b4a186bb3de007efbaff566ef2d2">
+                    IACV
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    E
+                  </a>
+                </td> -->
+
+
+                <!-- 10-11 -->
+                <!-- Fr2 -->
+
+                <td class="table-success">
+                  <a href="https://vnit.webex.com/meet/manishaparlewar.aapp">
+                    FIT
+                  </a>
+                </td>
+
+                 <!-- <td class="table-secondary">
+                  <a href="#">
+                    C
+                  </a>
+                </td> -->
+
+
+                <!-- 11-12 -->
+                <!-- Fr3 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=m5dd9dabe8b69fa8fb5b03f4448229200'>
+                        Radar
+                      </a>
+                    </div>
+                    <div>
+                      <a href='#'>
+                        P&M
+                      </a>
+                    </div>
+                    <div>
+                      <a href='https://vnit.webex.com/vnit/j.php?MTID=mc3a923c5ca1efbb47fe0f5a1c70a4a5a'>
+                        PoE
+                      </a>
+                    </div>">
+                    A
+                  </a>
+                </td>
+
+
+                <!-- 12-13 -->
+                <!-- Fr4 -->
+
+                <td class="table-primary">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m8492af72e32fd52f28e126b0a18004c5">
+                    CN
+                  </a>
+                </td>
+
+
+                <!-- 13-14 -->
+
+                <!-- <td class="table-secondary">
+                  <a href="#" class="text-secondary" target="_blank">
+
+                  </a>
+                </td> -->
+
+
+                <!-- 14-15 -->
+                <!-- Fr5 -->
+
+                <td class="table-warning">
+                  <a href="https://vnit.webex.com/meet/NKN">
+                    AMI
+                  </a>
+                </td>
+
+                <!-- <td class="table-secondary">
+                  <a href="#">
+                    D
+                  </a>
+                </td> -->
+
+
+                <!-- 15-16 -->
+                <!-- Fr6 -->
+
+                <td class="table-secondary">
+                  <a href="#">
+
+                  </a>
+                </td>
+
+
+                <!-- 16-18 -->
+                <!-- Fr7 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/meet/abhishekpahuja.aapp'>
+                        AMI-2
+                      </a>
+                    </div>">
+                    Prac
+                  </a>
+                </td>
+
+              </tr>
+
+              <!-- Saturday -->
+              <tr>
+
+                <th class="table-dark" scope="column">
+                  Sat
+                </th>
+
+                <!-- 9-10 -->
+                <!-- Sa1 -->
+
+                <td class="table-light">
+                  <a href="https://vnit.webex.com/meet/ksurender">
+                    OS
+                  </a>
+                </td>
+
+
+                <!-- 10-11 -->
+                <!-- Sa2 -->
+
+                <td class="table-warning">
+                  <a href="https://vnit.webex.com/meet/NKN">
+                    AMI
+                  </a>
+                </td>
+
+
+                <!-- 11-12 -->
+                <!-- Sa3 -->
+
+                  <td class="table-secondary">
+                    <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                      <div>
+                        <a href='https://vnit.webex.com/meet/adhocstaff254'>
+                          BG
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://vnit.webex.com/vnit/j.php?MTID=m14ef36e607991ac0e58135bd1b2e2d53'>
+                          BSP
+                        </a>
+                      </div>
+                      <div>
+                        <a href='#'>
+                          ECA
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://meet.google.com/rat-tnyj-eas'>
+                          IS
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://vnit.webex.com/vnit/j.php?MTID=m40fda5273e2c45cf6a5f62a27632c4f6'>
+                          MFM
+                        </a>
+                      </div>
+                      <div>
+                        <a href='#'>
+                          Sans
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://meet.google.com/fhe-poxi-mvw'>
+                          SAQT
+                        </a>
+                      </div>">
+                      B
+                    </a>
+                  </td>
+
+
+                <!-- 12-13 -->
+                <!-- Sa4 -->
+
+                <td class="table-info">
+                  <a href="https://vnit.webex.com/vnit/j.php?MTID=m28b79efb229cb5de60f42a28c1a8109a">
+                  WC
+                  </a>
+                </td>
+
+
+                <!-- 13-14 -->
+
+                <!-- <td class="table-secondary">
+                  <a href="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2018%2F08%2Fmain%2Fgreek-chickpea-salad-1809-p90.jpg%3Fitok%3DVEPAzZB9" class="text-secondary">
+                    Lunch
+                  </a>
+                </td> -->
+
+                <!-- <td class="table-success">
+                  <a href="https://vnit.webex.com/meet/manishaparlewar.aapp">
+                    FIT
+                  </a>
+                </td> -->
+
+
+                <!-- 14-15 -->
+                <!-- Sa5 -->
+
+                <td class="table-secondary">
+                  <a href="#">
+
+                  </a>
+                </td>
+
+
+                <!-- 15-16 -->
+                <!-- Sa6 -->
+
+                <td class="table-secondary">
+                  <a href="#">
+
+                  </a>
+                </td>
+
+                <!-- 16-17 -->
+
+                <td class="table-secondary">
+                  <a class= "lookLink" data-container="body" data-toggle="popover" data-placement="top" data-content="
+                    <div>
+                      <a href='https://vnit.webex.com/meet/NKN'>
+                        AMI-2
+                      </a>
+                    </div>">
+                    Prac
+                  </a>
+                </td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+      <!-- Notices -->
+      <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 paddingZero margin50 text-center">
+
+        <!-- <h3 class="text-center"><a href="#" onclick="window.open('https://drive.google.com/file/d/1F4sl6nl0lxw6toAPvMH5rNmBhAxWE_s3/view?usp=sharing');window.open('https://drive.google.com/file/d/1AuyqyRMS2L4m7uEDichaFomQdP2obZCu/view?usp=sharing');" class="text-danger">!! Examination Details Here !!</a></h3>
+        <span class="text-center">Examination link to be sent by Exam Co-ordinator via email. <a href="https://drive.google.com/file/d/11byEDlyJNn9SlXFpT9gPHL76DbiTquPB/view?usp=sharing">Notice here.</a></span> -->
+
+        <h3 id="notices">Notices</h3>
+        <!-- <h5><a href="https://drive.google.com/file/d/18gQ3prKXC7wPJCLLpgOqSTbZOfAuZrbo/view?usp=sharing">Academic Calendar</a></h5> -->
+        <!-- <ul> -->
+        <!-- <li class="text-danger">Thursday is a Holid ay. Complete Off. Nothing Scheduled.</li> -->
+        <!-- <li class="text-danger"><a href="https://vnit.webex.com/vnit/j.php?MTID=m83edaa2b69b587e4b673ea432ad5abf6">DIP</a> Extra Class from 1600-1700Hrs on Saturday, 6th February.</li> -->
+        <!-- <li>DHD Software: Quartus II. Download <a href='https://drive.google.com/file/d/1zMf3f2qvGcJkAe9ivG1WLfNRAMcVkC4O/view?usp=sharing'>Here</a>. Reference manual <a href='https://drive.google.com/file/d/1-5l81c_Ix2Aub4NnDU8SatrdgK1-ZNAu/view?usp=sharing'>Here</a>.</li> -->
+        <!-- <li>DC Software: GNU-Radio link <a href='https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/p/MjU5NDU4OTQ1Njc4/details'>here</a>.</li> -->
+          <!-- <li class="text-danger">CE quiz from 13:00, on 3rd December, Thursday.</li> -->
+          <!-- <li class="text-danger">W&A quiz from 20:00, on 3rd December, Thursday.</li> -->
+          <!-- <li class="text-danger">Okay? Okay!</li> -->
+          <!-- <li>  <a href="https://docs.google.com/document/d/17OlaXUA38qzelux67DDrpOgbKFiA7qCfOlpCzvpCyX4/edit?usp=drivesdk" target="_blank">DC Instructions for Assignment 1</a></li> -->
+          <!-- <li><span class="text">Analog Communication PPT and Viva<br>18th Nov for remaining people<br>PPTs to mailed before Viva day, <a href='mailto:joydeep.sengupta45@gmail.com'>Here.</a></li> -->
+          <!-- <li class="text">EMB submission before 2359 Hrs. Monday. <a href="https://docs.google.com/forms/d/e/1FAIpQLScYf2WN738n5Vrokc1PdjokXuvL-MiuMQUVySJQ3HEkg-1nIw/viewform"> Here.</a></li> -->
+        <!-- </ul> -->
+      </div>
+        <div class="container">
+        <div class="row">
+          <div class="table-responsive col-md-6 text-center">
+            <table class="table table-borderless table-hover text-center table-sm">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th class="table-dark" scope="col" colspan="4">Submissions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="table-dark" scope="column">
+                        Course
+                      </th>
+                      <th class="table-dark">
+                          Due
+                      </th>
+                      <th class="table-dark">
+                          Statement
+                      </th>
+                      <th class="table-dark">
+                          Submit
+                      </th>
+                    </tr>
+
+                    <tr class="table-light">
+                      <td>
+                        OS
+                      </td>
+                      <td>
+                        Soon
+                      </td>
+                      <td>
+                        <a href="https://drive.google.com/file/d/1K8vDeV-pXzdg4wDWg3Tyu6tuuesRoDpH/view?usp=sharing">Here</a>
+                      </td>
+                      <td>
+                        <!-- <a href="https://classroom.google.com/c/MjQ5MTgwMTkwNDM3/a/MjY1MTkzOTU1NTY4/details">Here</a> -->
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+          </div>
+          <div class="table-responsive col-md-6 text-center">
+            <table class="table table-borderless table-hover text-center table-sm">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th class="table-dark" scope="col" colspan="4">Quizzes & Vivas </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="table-dark" scope="column">
+                        Course
+                      </th>
+                      <th class="table-dark">
+                        Date
+                      </th>
+                      <th class="table-dark">
+                        Ref
+                      </th>
+                    </tr>
+
+                    <!-- <tr class="table-danger">
+                      <td>
+                        DM Viva
+                      </td>
+                      <td>
+                        07/04 Onwards
+                      </td>
+                      <td>
+                        <a href="https://classroom.google.com/c/MjY1ODQ4NTg3NDY3/p/MzA3MjYxNTk4NDAy/details">Here</a>
+                      </td>
+                    </tr> -->
+
+                  </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+
+
+      </div>
+
+
+
+  <div id="footer"></div>
+
+  </body>
+</html>
+<!-- Partials -->
+<script type="text/javascript">
+  $('#header').load('header.html');
+  $('#footer').load('footer.html', function(){
+    console.log('it runs');
+  });
+</script>
