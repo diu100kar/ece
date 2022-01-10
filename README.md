@@ -5,7 +5,7 @@ A simple yet efficient tool for managing all the links, data and notifications.
 In this period of COVID-19 Pandemic, establishments have stopped their normal functioning. 
 In such a tragic scenario, the rise of "Online" culture has soared to a phenomenal degree.
 This digitisation has also spawned a gigantic lot of data, which is difficult to maintain, and access systematically.\
-As a student of an "_Institute of Technology_", I came up with this method, to help my peers, organizing all the links, data, and notices, 
+As a student of an "_National Institute of Technology_", I came up with this method, to help my peers, organizing all the links, data, and notices, 
 which contrarily would have been troublesome to manage remotely.
 ***
 
